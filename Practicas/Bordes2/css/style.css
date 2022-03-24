@@ -1,0 +1,34 @@
+body {
+  font-family: monospace;
+  background-color: #DBFFDB;
+  border: solid #B8EAAD 10px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+h1 {
+  background-color: #B8EAAD;
+  text-align: center;
+  border: solid #F1FFF1 5px;
+}
+
+h2{
+  border: solid #B89BB1 10px;
+  background-color: #FCD4F2;
+  margin-bottom: 0;
+  border-bottom: solid #B89BB1 0;
+  padding-left: 20px;
+}
+
+p {
+  margin-top: 0;
+  border: solid #B89BB1 5px;
+  border-top: solid #B89BB1 0;
+  padding: 10px;
+}
+
+address {
+  border-top: dashed black 2px;
+  text-align: right;
+  
+}
