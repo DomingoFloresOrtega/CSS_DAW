@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+}
+
+#cajon {
+  border: 1px solid black;
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  margin-bottom: 2em;
+  padding-bottom: -1em;
+}
+
+img {
+  border: 1px dashed red;
+  margin-right: 2px;
+  margin-bottom: -2px;
+}
+
+#img1 {
+  vertical-align: baseline;
+}
+
+#img2 {
+  vertical-align: sub;
+}
+
+#img3 {
+  vertical-align: super;
+}
+
+#img4 {
+  vertical-align: top;
+}
+
+#img5 {
+  vertical-align: text-top;
+}
+
+#img6 {
+  vertical-align: middle;
+}
+
+#img7 {
+  vertical-align: bottom;
+}
+
+#img8 {
+  vertical-align: text-bottom;
+}
+
+#img9 {
+  vertical-align: 1em;
+}
+
+#img10 {
+  vertical-align: -1em;
+}
+
+#img11 {
+  vertical-align: 20%;
+}
+
+#img12 {
+  vertical-align: 80%;
+}
+
+.text {
+  font-size: 20px;
+  float: right;
+  margin-top: 2.2em;
+}
