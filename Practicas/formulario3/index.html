@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario datos personales. Ejercicios</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/estilos.css" />
+		<link rel="shortcut icon" href="img/favicon.png" />
+	</head>
+	
+	<body>
+		<h1>EJEMPLO DE FORMULARIO</h1>
+		
+		<form action="index.html" method="get">
+			<fieldset>
+				<legend>Datos personales</legend>
+				<div id="column">
+					<div id="col1">
+						<label for="ape"><span id="letra_red">A</span>pellidos:</label>
+						<input type="text" id="ape" name="apellidos" size="30" />
+					</div>
+					
+					<div id="col2">
+						<label for="name">N<span id="letra_red">o</span>mbre:</label>
+						<input type="text" id="name" name="nombre" />	
+					</div>
+					
+					<div id="col1">
+						<label for="nacido"><span id="letra_red">N</span>acido en:</label>
+						<input type="text" id="nacido" name="nacido" size="20" />
+					</div>
+					
+					<div id="col2">
+						<label for="provincia">Provincia:</label>
+						<select name="provincia">
+							<option value="va">Valencia</option>
+							<option value="ma">Málaga</option> 
+							<option value="se">Sevilla</option> 
+							<option value="hu">Huelva</option>
+						</select>	
+					</div>
+					
+					<div id="col1">
+						<label for="domicilio">Do<span id="letra_red">m</span>icilio:</label>
+						<select name="provinciaDom">
+							<option value="no"></option>
+							<option value="ma">Málaga</option> 
+							<option value="se">Sevilla</option> 
+							<option value="hu">Huelva</option>
+						</select>
+						<input type="text" id="domicilio" name="domicilio" />
+					</div>
+					
+					<div id="col1">
+						<label for="localidad"><span id="letra_red">L</span>ocalidad:</label>
+						<input type="text" id="localidad" name="localidad" size="20" />
+					</div>
+					
+					<div id="col2">
+						<label for="provincia2">Provincia:</label>
+						<select name="provincia2">
+							<option value="va">Valencia</option>
+							<option value="ma">Málaga</option> 
+							<option value="se">Sevilla</option> 
+							<option value="hu">Huelva</option>
+						</select>	
+					</div>
+				</div>
+				
+				<div id="column">
+					<div id="col3">
+						<label for="dni"><span id="letra_red">D</span>NI:</label>
+						<input type="text" id="dni" name="dni" />	
+					</div>
+					
+					<div id="col3">
+						<label for="birth"><span id="letra_red">F</span>echa nacimiento (dd/mm/aaaa):</label>
+						<input type="text" id="birth" name="nacido" />
+					</div>
+					
+					<div id="col3">
+						<label for="postcode"><span id="letra_red">C</span>odigo postal:</label>
+						<input type="text" id="postcode" name="postcode" />
+					</div>
+					
+					<div id="col3">
+						<label for="tel"><span id="letra_red">T</span>elefono:</label>
+						<input type="text" id="tel" name="tel" />
+					</div>
+				</div>
+				
+				<div id="botones">
+					<div id="boton">
+						<input type="reset" name="reset" value="Borrar todo" />
+						<input type="submit" name="Enviar" value="Enviar" />
+						
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

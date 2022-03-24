@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #EDEDED;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+form {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+legend {
+  border: 3px #EDEDED solid;
+  padding: 3px;
+  background-color: white;
+}
+
+fieldset {
+  background-color: #EDEDED;
+  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#column {
+  width: 50%; 
+  float: left;
+}
+
+#botones {
+  clear: both; /* para evitar que flote */
+  text-align: right;
+}
+
+label {
+  display: block;
+}
+
+#col1 {
+  width: 60%;
+  float: left;
+  padding-right: 11em;
+  padding-bottom: 0.5em;
+}
+
+#col2 {
+  width: 22.5%;
+  float: left;
+}
+
+#col3 {
+  width: 45%;
+  padding-bottom: 0.5em;
+}
+
+#boton {
+  margin-left: 22em;
+}
+
+#letra_red {
+  color: red;
+  text-decoration: underline;
+}
+
+#domicilio {
+  width: 35%;
+  margin-left: 3px;
+  position: absolute;
+  float: left;
+}
