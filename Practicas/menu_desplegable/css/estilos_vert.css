@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin-left: 30em;
+}
+
+li {
+  background-color: #050000;
+  border-bottom: 1px solid #7c7c7c;
+  float: left;
+}
+
+li a {
+  color: #fdfafa;
+  padding-left: 1em;
+  padding-top: 0.2em;
+  padding-right: 1em;
+  padding-bottom: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+li ul {
+  position: absolute;
+  left: 149px;
+  top: 0;
+  display: none;
+}
+
+li:hover {
+  background-color: #CCCCCC;
+}
+
+li:hover ul { 
+  display: block; 
+}
