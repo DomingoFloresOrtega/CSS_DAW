@@ -1,0 +1,151 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+}
+
+#cabecera {
+  background-image:url("../images/fondo1.jpg");
+  padding-top: 7em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: -1.5em;
+  font-size: 60px;
+}
+
+h2 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+#menu {
+  background-image:url("../images/boton-menu.jpg");
+}
+
+ul {
+  list-style: none;
+  width: 50%;
+  margin-left: 30%;
+  border-right: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  background:  transparent 0.2em center;
+  width: 20%;
+}
+
+li a {
+  color: #ffffff;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 35%;
+  text-decoration: none;
+  display: block;
+}
+
+li:hover {
+  background:url("../images/boton-menu2.jpg") #c242a280 0.2em center;
+}
+
+li a:hover {
+  color: black;
+}
+
+#container {
+  height: 80%;
+  width: 100%;
+  
+}
+#izq {
+  width: 20%;
+  height: 100%;
+  padding: 1em;
+  float: left;
+}
+
+#der {
+  width: 80%;
+  height: 100%;
+  padding-left: 2em;
+  border-left: 2px solid black;
+  float: left;
+}
+
+#izq p {
+  font-size: 20px;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+form {
+  margin-right: 2em;
+}
+
+#formulario {
+  border-top: 1px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  overflow: hidden;
+}
+
+table {
+  width: 90%;
+}
+
+th {
+  width: 45%;
+  padding-top: 0em;
+  padding-bottom: 0.1em;
+}
+
+#title {
+  width:45%;
+  float: left;
+  overflow: hidden;
+  text-align: right;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+label {
+  text-align: right;
+}
+
+#campo {
+  width: 45%;
+  padding-left: 0.1em;
+  text-align: left;
+  float: left;
+}
+
+#botones {
+  margin-left: 47%;
+}
+
+#footer {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  float: left;
+}
+
+#footer a {
+  color: rgb(122, 122, 206);
+  text-decoration: underline;
+}
