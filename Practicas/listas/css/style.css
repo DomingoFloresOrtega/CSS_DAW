@@ -1,0 +1,48 @@
+ul {
+ border: 1px solid black;
+ float: left;
+ margin: 4px;
+ padding-right: 1em;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+}
+
+#l1 {
+  list-style-type: disc;
+}
+
+#l2 {
+  list-style-type: circle;
+}
+
+#l3 {
+  list-style-type: square;
+}
+
+#l4 {
+  list-style-type: lower-roman;
+}
+
+#l5 {
+  list-style-type: lower-greek;
+}
+
+#l6 {
+  list-style-type: upper-latin;
+}
+
+#l7 {
+  list-style-type: lower-latin;
+}
+
+#l8 {
+  list-style-type: armenian;
+}
+
+#l9 {
+  list-style-type: upper-alpha;
+}
+
+#l10 {
+  list-style-type: decimal-leading-zero;
+}
