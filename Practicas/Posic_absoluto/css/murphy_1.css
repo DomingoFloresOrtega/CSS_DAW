@@ -1,0 +1,112 @@
+body { 
+  background-color: lightgrey; 
+  font-family: sans-serif;
+  padding: 0;
+}
+
+h1 { 
+  text-align: center; 
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  top: 20px;
+  left: 17em;
+}
+
+p {
+  top: 70px;
+  font-size: 150%; 
+  padding: 10px; 
+}
+
+.brown {
+  background-color: #DBC9A6;
+  text-align: center;
+  border: #9B8F76 2px solid;
+  width: 700px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+.yellow {
+  border: #EBEBA5 4px solid;
+  background-color: #FFFFB3;
+  width: 300px;
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+.blue {
+  background-color: #C6FFFF;
+  border: #98C4C4 4px solid;
+  width: 300px;
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 750px;
+  margin-right: 50px;
+  position: absolute;
+}
+
+.pink {
+  background-color: #FFE5FF;
+  border: #BAA7BA 4px solid;
+  width: 300px;
+  height: 150px;
+  margin-left: 200px;
+  margin-top: 300px;
+  position: absolute;
+}
+
+.red {
+  background-color: #FFB4B4; 
+  border: #865F5F 4px solid;
+  width: 300px;
+  height: 150px;
+  margin-top: 300px;
+  margin-left: 750px;
+  margin-right: 50px;
+  position: absolute;
+}
+
+.green {
+  background-color: #91FF91;
+  border: #64B064 4px solid;
+  width: 300px;
+  height: 150px;
+  margin-left: 470px;
+  position: absolute;
+  margin-top: 200px;
+  z-index: 1;
+}
+
+/*  Bordes y colores de los 6 bloques
+  background-color: #DBC9A6; 
+  border: #9B8F76 2px solid;
+ 
+
+
+  background-color: #91FF91; 
+  border: #64B064 4px solid;
+
+
+  background-color: #FFFFB3; 
+  border: #EBEBA5 4px solid;
+  
+
+  background-color: #C6FFFF; 
+  border: #98C4C4 4px solid;
+
+
+  background-color: #FFE5FF; 
+  border: #BAA7BA 4px solid;
+  
+
+  background-color: #FFB4B4; 
+  border: #865F5F 4px solid;
+*/
+
+p:hover { 
+  z-index: 1; 
+}
