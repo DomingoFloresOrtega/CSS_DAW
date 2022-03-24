@@ -1,0 +1,39 @@
+body, html {
+  background-color: #FDDBBD;
+  font-family: sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #B0B0B0;
+  text-transform: uppercase;
+}
+
+p:first-letter{
+  color: #C9A568; 
+  font-size: 300%; 
+  font-style: normal;
+}
+p {
+  padding: 6px;
+  padding-top: 0;
+  border: dashed #C9A568 2px;
+  background-color: #F2D0AB;
+  margin-bottom: 10px;
+  font-style: oblique;
+}
+
+#cajon {
+  margin-right: 40%;
+  float: left;
+}
+
+.caja {
+  position: relative;
+  width: 12em;
+  height: 11em;
+  float: left;
+  margin-right: 1em;
+}
