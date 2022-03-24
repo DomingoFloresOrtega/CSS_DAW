@@ -1,0 +1,44 @@
+body { 
+  font-family: sans-serif; 
+  text-align: justify; 
+}
+
+h1 {
+  border: solid black 5px;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 { 
+  font-size: 120%; 
+  font-weight: normal; 
+}
+
+h2 {
+  border-left: double red 20px;
+}
+
+h3 {
+  border-top: dotted cyan 2px;
+  border-right: dotted pink 5px;
+  border-left: dotted pink 10px;
+  border-bottom: dotted cyan 10px;
+}
+
+h4 {
+  border-top: double green 15px;
+  border-bottom: double blue 15px;
+}
+
+h5 {
+  border-top: dashed red 7px;
+  border-left: solid black 10px;
+  border-right: solid black 10px;
+  border-bottom: dotted black 6px;
+}
+
+h6 {
+  border-top: dotted black 10px;
+  border-right: solid black 10px;
+  border-left: dotted red 7px;
+  border-bottom: dashed black 10px;
+}
