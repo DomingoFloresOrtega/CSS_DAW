@@ -1,0 +1,107 @@
+p {
+  margin-top: 1px;
+}
+
+.blue {
+  border: solid blue 3px;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.text1 {
+  top: 30px;
+  left: 420px;
+  position: absolute;
+}
+
+.text2 {
+  padding-top: 9px;
+  top: 0;
+  left: 60em;
+  position: absolute;
+}
+
+.green {
+  border: solid green 3px;
+  margin-left: 100px;
+  top: 70px;
+  left: 100px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.cyan {
+  border: solid cyan 3px;
+  width: 400px;
+  height: 400px;
+  top: 50px;
+  right: 50px;
+  margin-right: 400px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.red {
+  border: solid red 3px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pink {
+  border: solid pink 3px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.blue2 {
+  border: solid cyan 3px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 25%;
+  right: 32%;
+}
+
+.cactus {
+  border: solid #4a6c40 3px;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.orange {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: solid orange 3px;
+  bottom: 50%;
+  right: 50%;
+}
+
+.line1 {
+  position: absolute;
+  border: dashed #CCCCCC 1px;
+  top: 317px;
+  width: 1280px;
+  height: 0;
+}
+
+.line2 {
+  position: absolute;
+  border: dashed #CCCCCC 1px;
+  left: 655px;
+  width: 0;
+  height: 625px;
+}
