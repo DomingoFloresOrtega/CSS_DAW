@@ -1,0 +1,46 @@
+/* Colores usados: #FDDBBD, #F2D0AB, #C9A568, #B0B0B0, #C9A568 y #DDDDDD 
+Propiedades de Texto necesarias:
+	font-family: sans-serif; 
+  	text-align: justify, center,....;
+	font-size: 150%,300%,....; 
+  	font-style: normal,oblique,....;
+	text-transform: uppercase,lowercase,....; 
+
+ */
+
+body {
+  background-color: #FDDBBD;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #B0B0B0;
+  text-transform: uppercase;
+}
+
+h2 {
+  background-color: #C9A568;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p:first-letter { 
+  color: #C9A568; 
+  font-size: 300%; 
+  font-style: normal;
+}
+
+p {
+  border: dashed #C9A568 2px;
+  background-color: #F2D0AB;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+.caja {
+  position: relative;
+  width: 12em;
+  height: 12em;
+}
