@@ -1,0 +1,141 @@
+body{
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #98E1E5;
+  text-align: right;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 0;
+}
+
+h2 {
+  background-color: #98E1E5;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 1%;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 7px;
+}
+
+div {
+  margin-bottom: 4%;
+}
+
+#css {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 9px;
+}
+
+caption {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+td {
+  width: 1em;
+}
+
+#c_rojo {
+  background-color: red;
+  text-align: center;
+  font-size: 13px;
+}
+
+#c_rojo a {
+  color: white;
+}
+
+#c_amarillo {
+  background-color: yellow;
+  text-align: center;
+  font-size: 13px;
+}
+
+#c_verde {
+  background-color: green;
+  text-align: center;
+  font-size: 13px;
+}
+
+#c_verde a {
+  color: white;
+}
+
+#c_azul {
+  background-color: blue;
+  text-align: center;
+  font-size: 13px;
+}
+
+#c_azul a {
+  color: white;
+}
+
+#contenido {
+  position: fixed;
+  font-size: 13px;
+  top: 30px;
+  left: -30px;
+}
+
+li {
+  list-style: none;
+}
+
+#principal {
+  margin-left: 14em;
+}
+
+#Mark {
+  border: solid black 2px;
+  width: 60%;
+  height: 30%;
+}
+
+#Bertrand {
+  border: solid black 2px;
+  width: 60%;
+  height: 30%;
+}
+
+#Winston {
+  border: solid black 2px;
+  width: 60%;
+  height: 30%;
+}
+
+#Fran {
+  border: solid black 2px;
+  width: 60%;
+  height: 30%;
+}
+
+#Albert {
+  border: solid black 2px;
+  width: 60%;
+  height: 30%;
+}
+
+address {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+}
